@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Custom Surf Trips</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-700 antialiased">
+    <header class="bg-blue-600 text-white shadow-md">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap justify-between items-center">
+            <a href="index.html" class="text-xl font-bold hover:text-blue-200 transition duration-300">Custom Surf Trips</a>
+            <div class="space-x-4">
+                <a href="index.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                <a href="destinations.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Destinations</a>
+                <a href="how-it-works.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">How It Works</a>
+                <a href="experiences.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Experiences</a>
+                <a href="about.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">About Us</a>
+                <a href="contact.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium bg-yellow-400 text-blue-700">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+        <h1 class="text-3xl md:text-4xl font-bold mb-10 md:mb-12 text-center text-blue-700">Contact Us & Start Planning</h1>
+
+        <div class="grid md:grid-cols-5 gap-10 lg:gap-16">
+            <!-- Contact Form Section -->
+            <section class="md:col-span-3">
+                <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-blue-600">Send Us an Inquiry</h2>
+                <form action="#" method="POST" class="space-y-6 bg-white p-6 md:p-8 rounded-xl shadow-xl border border-gray-200">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                        <input type="text" name="name" id="name" required class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                        <input type="email" name="email" id="email" required class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                    </div>
+
+                    <div>
+                        <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number (Optional)</label>
+                        <input type="tel" name="phone" id="phone" class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                    </div>
+
+                    <div>
+                        <label for="destination" class="block text-sm font-medium text-gray-700 mb-1">Preferred Destination(s)</label>
+                        <input type="text" name="destination" id="destination" placeholder="e.g., Bali, South Africa, or 'Open to suggestions'" class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="travel_dates" class="block text-sm font-medium text-gray-700 mb-1">Preferred Travel Dates</label>
+                            <input type="text" name="travel_dates" id="travel_dates" placeholder="e.g., July 2024, or flexible" class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                        </div>
+                        <div>
+                            <label for="duration" class="block text-sm font-medium text-gray-700 mb-1">Trip Duration</label>
+                            <input type="text" name="duration" id="duration" placeholder="e.g., 7 days, 2 weeks" class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="num_travelers" class="block text-sm font-medium text-gray-700 mb-1">Number of Travelers</label>
+                            <input type="text" name="num_travelers" id="num_travelers" placeholder="e.g., 2 adults, 1 child" class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                        </div>
+                        <div>
+                            <label for="surfing_levels" class="block text-sm font-medium text-gray-700 mb-1">Surfing Levels</label>
+                            <input type="text" name="surfing_levels" id="surfing_levels" placeholder="e.g., Beginner, Intermediate, Mixed" class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="accommodation_prefs" class="block text-sm font-medium text-gray-700 mb-1">Accommodation Preferences</label>
+                        <select name="accommodation_prefs" id="accommodation_prefs" class="mt-1 block w-full px-4 py-2.5 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                            <option>No Preference</option>
+                            <option>Boutique Hotel</option>
+                            <option>Private Villa</option>
+                            <option>Surf Camp / Lodge</option>
+                            <option>Eco-Lodge</option>
+                            <option>Resort Hotel</option>
+                            <option>Charter Boat</option>
+                            <option>Other (please specify below)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="interests" class="block text-sm font-medium text-gray-700 mb-1">Other Interests & Activities</label>
+                        <textarea name="interests" id="interests" rows="3" placeholder="e.g., Yoga, photography, cultural tours, specific surf coaching, diving, etc." class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"></textarea>
+                    </div>
+                    
+                    <div>
+                        <label for="budget" class="block text-sm font-medium text-gray-700 mb-1">Estimated Budget per Person (Optional)</label>
+                        <input type="text" name="budget" id="budget" placeholder="e.g., $2000 - $3000 USD" class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                    </div>
+
+                    <div>
+                        <label for="requests" class="block text-sm font-medium text-gray-700 mb-1">Additional Requests / Questions</label>
+                        <textarea name="requests" id="requests" rows="4" placeholder="Tell us anything else that would help us plan your perfect trip! If you selected 'Other' for accommodation, please specify here." class="mt-1 block w-full px-4 py-2.5 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="w-full flex justify-center py-3 px-6 border border-transparent rounded-lg shadow-sm text-lg font-semibold text-blue-700 bg-yellow-500 hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-400 transition duration-300">
+                            Send Inquiry
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Contact Details Section -->
+            <section>
+                <h2 class="text-2xl font-semibold mb-6 text-gray-800">Other Ways to Reach Us</h2>
+                <div class="space-y-6 bg-white p-8 rounded-lg shadow-xl border border-gray-200">
+                    <div>
+                        <h3 class="text-xl font-medium text-gray-900">Email Us</h3>
+                        <p class="mt-1 text-gray-700">
+                            For general inquiries or detailed discussions, feel free to email us directly:
+                        </p>
+                        <a href="mailto:info@customsurftrips.com" class="text-blue-600 hover:text-blue-800 text-lg">info@customsurftrips.com</a>
+                    </div>
+                    
+                    <hr class="my-4">
+
+                    <div>
+                        <h3 class="text-xl font-medium text-gray-900">Call Us</h3>
+                        <p class="mt-1 text-gray-700">
+                            Speak to a surf travel expert (Mon-Fri, 9am-5pm PST):
+                        </p>
+                        <a href="tel:+1234567890" class="text-blue-600 hover:text-blue-800 text-lg">+1 (234) 567-890</a>
+                        <p class="mt-1 text-xs text-gray-500">(International call charges may apply)</p>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <div>
+                        <h3 class="text-xl font-medium text-gray-900">Connect on Social Media</h3>
+                        <p class="mt-1 text-gray-700">
+                            Follow us for inspiration and updates:
+                        </p>
+                        <div class="flex space-x-4 mt-2">
+                            <a href="#" class="text-blue-500 hover:text-blue-700 font-medium">Instagram</a>
+                            <a href="#" class="text-blue-500 hover:text-blue-700 font-medium">Facebook</a>
+                            <a href="#" class="text-blue-500 hover:text-blue-700 font-medium">Pinterest</a>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+
+                    <div class="mt-6">
+                         <h3 class="text-xl font-medium text-gray-900">Our Commitment</h3>
+                         <p class="mt-2 text-gray-700 leading-relaxed">
+                            We are dedicated to crafting your ultimate surf adventure. We typically respond to inquiries within 24-48 business hours. We look forward to hearing from you and helping you plan an unforgettable experience on the waves!
+                         </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-4 mt-8">
+        <p>&copy; 2024 Custom Surf Trips</p>
+        <a href="privacy.html" class="hover:text-gray-400">Privacy Policy</a> | 
+        <a href="terms.html" class="hover:text-gray-400">Terms & Conditions</a>
+    </footer>
+
+    <script>
+        // Check if URL contains a destination parameter and pre-fill the form
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const destination = urlParams.get('destination');
+            if (destination) {
+                const destinationField = document.getElementById('destination');
+                if (destinationField) {
+                    destinationField.value = destination;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
