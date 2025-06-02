@@ -145,17 +145,8 @@
 
 ### Technical Platform Options
 
-- **WordPress + Premium Theme**
-  - ✅ Customizable, SEO friendly, ownership  
-  - ❌ Higher maintenance
-
-- **Squarespace / Webflow**
-  - ✅ Easier design, hosting included  
-  - ❌ Less plugin flexibility
-
-- **Custom Development**
-  - ✅ Complete control  
-  - ❌ Expensive and time-consuming
+HTML
+Tailwinds CSS
 
 ### SEO Basics
 
