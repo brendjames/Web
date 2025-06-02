@@ -5,83 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Surf Trips</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      html { scroll-behavior: smooth; }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-700 antialiased">
+<body class="bg-sky-50 text-gray-700 antialiased">
 
-    <header class="bg-blue-600 text-white shadow-md">
+    <header class="bg-blue-700 text-white shadow-md">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap justify-between items-center">
-            <a href="index.html" class="text-xl font-bold hover:text-blue-200 transition duration-300">Custom Surf Trips</a>
+            <a href="index.html" class="text-xl font-bold hover:text-sky-200 transition duration-300">Custom Surf Trips</a>
             <div class="space-x-4">
-                <a href="index.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                <a href="destinations.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Destinations</a>
-                <a href="how-it-works.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">How It Works</a>
-                <a href="experiences.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Experiences</a>
-                <a href="about.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">About Us</a>
-                <a href="contact.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium bg-yellow-400 text-blue-700">Contact</a>
+                <a href="index.html" class="hover:text-sky-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                <a href="destinations.html" class="hover:text-sky-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Destinations</a>
+                <a href="how-it-works.html" class="hover:text-sky-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">How It Works</a>
+                <a href="experiences.html" class="hover:text-sky-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Experiences</a>
+                <a href="about.html" class="hover:text-sky-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">About Us</a>
+                <a href="contact.html" class="hover:bg-teal-600 transition duration-300 px-3 py-2 rounded-md text-sm font-medium bg-teal-500 text-white">Contact</a>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="w-full min-h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('https://via.placeholder.com/1920x1080.png?text=Epic+Surf+Horizon');">
-        <div class="bg-black bg-opacity-60 text-white text-center p-8 md:p-12 rounded-lg max-w-3xl mx-auto">
-            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">Your Dream Surf Trip, <span class="text-yellow-400">Tailored to You</span></h1>
+    <section class="w-full min-h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('https://via.placeholder.com/1920x1080.png?text=Sun-Kissed+Ocean+Waves');">
+        <div class="bg-blue-900 bg-opacity-70 text-white text-center p-8 md:p-12 rounded-lg max-w-3xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">Your Dream Surf Trip, <span class="text-sky-300">Tailored to You</span></h1>
             <p class="text-lg sm:text-xl md:text-2xl mb-8 font-light">Experience the thrill of surfing the world's best waves, with a trip designed just for you by experts who live to surf.</p>
-            <a href="contact.html" class="bg-yellow-500 hover:bg-yellow-600 text-blue-700 font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-md hover:shadow-lg">Start Planning Now</a>
+            <a href="contact.html" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-md hover:shadow-lg">Start Planning Now</a>
         </div>
     </section>
 
     <!-- How It Works Section -->
     <section class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-700">How It Works</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-800">How It Works</h2>
         <p class="text-lg text-gray-600 mb-12 md:mb-16 max-w-2xl mx-auto">Our simple process ensures your surf adventure is perfectly planned from start to finish.</p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-                <div class="text-yellow-500 mb-4"><svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2zM12 3v4m0 4v.01m0 4v.01M12 12h.01M12 8h.01"></path></svg></div>
-                <h3 class="text-xl font-semibold mb-3 text-blue-600">Step 1: Initial Inquiry</h3>
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                <div class="text-sky-500 mb-4"><svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2zM12 3v4m0 4v.01m0 4v.01M12 12h.01M12 8h.01"></path></svg></div>
+                <h3 class="text-xl font-semibold mb-3 text-sky-700">Step 1: Initial Inquiry</h3>
                 <p class="text-gray-600 text-sm">Tell us your dreams – skill level, preferred waves, budget, and dates. The more we know, the better the trip!</p>
             </div>
-            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-                <div class="text-yellow-500 mb-4"><svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m0 0a9 9 0 019-9"></path></svg></div>
-                <h3 class="text-xl font-semibold mb-3 text-blue-600">Step 2: Personalized Proposal</h3>
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                <div class="text-sky-500 mb-4"><svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m0 0a9 9 0 019-9"></path></svg></div>
+                <h3 class="text-xl font-semibold mb-3 text-sky-700">Step 2: Personalized Proposal</h3>
                 <p class="text-gray-600 text-sm">We craft a custom itinerary with handpicked destinations, stays, and unique surf experiences, just for you.</p>
             </div>
-            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-                <div class="text-yellow-500 mb-4"><svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                <h3 class="text-xl font-semibold mb-3 text-blue-600">Step 3: Refine & Book</h3>
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                <div class="text-sky-500 mb-4"><svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
+                <h3 class="text-xl font-semibold mb-3 text-sky-700">Step 3: Refine & Book</h3>
                 <p class="text-gray-600 text-sm">Review, tweak, and once you're stoked, we handle all bookings. Your perfect surf trip is locked in!</p>
             </div>
         </div>
     </section>
 
     <!-- Featured Destinations/Inspiration Section -->
-    <section class="bg-blue-50 py-12 md:py-20 text-center">
+    <section class="bg-stone-100 py-12 md:py-20 text-center">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-700">Get Inspired</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-800">Get Inspired</h2>
             <p class="text-lg text-gray-600 mb-12 md:mb-16 max-w-2xl mx-auto">Discover some of our most popular surf destinations. Your next adventure starts here.</p>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <a href="destinations.html#bali" class="block bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+                <a href="destinations.html#bali" class="block bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group">
                     <img src="https://via.placeholder.com/400x300.png?text=Bali+Surf+Paradise" alt="Bali Surf Spot" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2 text-blue-600">Bali, Indonesia</h3>
+                        <h3 class="text-xl font-semibold mb-2 text-sky-700">Bali, Indonesia</h3>
                         <p class="text-gray-600 text-sm mb-3">Perfect barrels, vibrant culture, and waves for all levels. The Island of Gods awaits.</p>
-                        <span class="text-yellow-500 font-semibold group-hover:text-yellow-600 transition-colors duration-300">Explore Bali &rarr;</span>
+                        <span class="text-teal-500 font-semibold group-hover:text-teal-600 transition-colors duration-300">Explore Bali &rarr;</span>
                     </div>
                 </a>
-                <a href="destinations.html#south-africa" class="block bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+                <a href="destinations.html#south-africa" class="block bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group">
                     <img src="https://via.placeholder.com/400x300.png?text=J-Bay+Point+Break" alt="South Africa Surf Spot" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2 text-blue-600">South Africa</h3>
+                        <h3 class="text-xl font-semibold mb-2 text-sky-700">South Africa</h3>
                         <p class="text-gray-600 text-sm mb-3">Epic point breaks like J-Bay, stunning coastlines, and rich wildlife experiences.</p>
-                        <span class="text-yellow-500 font-semibold group-hover:text-yellow-600 transition-colors duration-300">Explore South Africa &rarr;</span>
+                        <span class="text-teal-500 font-semibold group-hover:text-teal-600 transition-colors duration-300">Explore South Africa &rarr;</span>
                     </div>
                 </a>
-                <a href="destinations.html#costa-rica" class="block bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
+                <a href="destinations.html#costa-rica" class="block bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group">
                     <img src="https://via.placeholder.com/400x300.png?text=Costa+Rica+Pura+Vida" alt="Costa Rica Surf Spot" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2 text-blue-600">Costa Rica</h3>
+                        <h3 class="text-xl font-semibold mb-2 text-sky-700">Costa Rica</h3>
                         <p class="text-gray-600 text-sm mb-3">"Pura Vida" lifestyle with consistent swells, lush rainforests, and diverse breaks.</p>
-                        <span class="text-yellow-500 font-semibold group-hover:text-yellow-600 transition-colors duration-300">Explore Costa Rica &rarr;</span>
+                        <span class="text-teal-500 font-semibold group-hover:text-teal-600 transition-colors duration-300">Explore Costa Rica &rarr;</span>
                     </div>
                 </a>
             </div>
@@ -90,22 +93,22 @@
 
     <!-- Testimonials Section -->
     <section class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-700">What Our Surfers Say</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-800">What Our Surfers Say</h2>
         <p class="text-lg text-gray-600 mb-12 md:mb-16 max-w-2xl mx-auto">Real stories from surfers who've experienced their dream trips with us.</p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
             <div class="bg-white p-8 rounded-xl shadow-lg">
-                <img src="https://via.placeholder.com/100x100.png?text=Alex+P." alt="Alex P." class="w-20 h-20 rounded-full mx-auto mb-4 border-2 border-yellow-400">
+                <img src="https://via.placeholder.com/100x100.png?text=Alex+P." alt="Alex P." class="w-20 h-20 rounded-full mx-auto mb-4 border-2 border-sky-400">
                 <blockquote class="text-lg italic text-gray-600 mb-4">
                     "The trip was absolutely epic! The waves were pumping, the local guide was super knowledgeable, and everything was perfectly organized. Can't wait for my next one!"
                 </blockquote>
-                <p class="font-semibold text-blue-600">- Alex P., <span class="font-normal text-gray-500">Seasoned Surfer</span></p>
+                <p class="font-semibold text-sky-700">- Alex P., <span class="font-normal text-gray-500">Seasoned Surfer</span></p>
             </div>
             <div class="bg-white p-8 rounded-xl shadow-lg">
-                <img src="https://via.placeholder.com/100x100.png?text=Jamie+L." alt="Jamie L." class="w-20 h-20 rounded-full mx-auto mb-4 border-2 border-yellow-400">
+                <img src="https://via.placeholder.com/100x100.png?text=Jamie+L." alt="Jamie L." class="w-20 h-20 rounded-full mx-auto mb-4 border-2 border-sky-400">
                 <blockquote class="text-lg italic text-gray-600 mb-4">
                     "As a beginner, I was a bit nervous, but the team found the perfect mellow waves for me to learn on. The instructors were fantastic and I felt safe and supported the whole time. Thank you!"
                 </blockquote>
-                <p class="font-semibold text-blue-600">- Jamie L., <span class="font-normal text-gray-500">New Surfer</span></p>
+                <p class="font-semibold text-sky-700">- Jamie L., <span class="font-normal text-gray-500">New Surfer</span></p>
             </div>
         </div>
     </section>
@@ -116,20 +119,20 @@
             <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Catch Your Perfect Wave?</h2>
             <p class="text-lg md:text-xl mb-10 max-w-xl mx-auto">Let our experts craft your unforgettable surf adventure. Your journey to epic waves starts with a simple conversation.</p>
             <div class="flex flex-wrap justify-center items-center gap-4">
-                <a href="contact.html" class="bg-yellow-500 hover:bg-yellow-600 text-blue-700 font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-md hover:shadow-lg">Start Planning Your Trip</a>
-                <a href="how-it-works.html" class="bg-transparent hover:bg-blue-600 border-2 border-yellow-400 text-yellow-400 hover:text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300">Learn How It Works</a>
+                <a href="contact.html" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-md hover:shadow-lg">Start Planning Your Trip</a>
+                <a href="how-it-works.html" class="bg-transparent hover:bg-blue-600 border-2 border-sky-300 text-sky-300 hover:text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300">Learn How It Works</a>
             </div>
         </div>
     </section>
 
-    <footer class="bg-gray-800 text-gray-300 text-center py-8">
+    <footer class="bg-blue-800 text-gray-300 text-center py-8">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <p class="mb-2">&copy; 2024 Custom Surf Trips. All Rights Reserved.</p>
             <p class="text-sm mb-4">Your Adventure Awaits!</p>
             <div>
-                <a href="privacy.html" class="hover:text-yellow-400 transition duration-300 text-sm px-2">Privacy Policy</a> | 
-                <a href="terms.html" class="hover:text-yellow-400 transition duration-300 text-sm px-2">Terms & Conditions</a> |
-                <a href="contact.html" class="hover:text-yellow-400 transition duration-300 text-sm px-2">Contact Us</a>
+                <a href="privacy.html" class="hover:text-sky-300 transition duration-300 text-sm px-2">Privacy Policy</a> | 
+                <a href="terms.html" class="hover:text-sky-300 transition duration-300 text-sm px-2">Terms & Conditions</a> |
+                <a href="contact.html" class="hover:text-sky-300 transition duration-300 text-sm px-2">Contact Us</a>
             </div>
         </div>
     </footer>

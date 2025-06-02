@@ -5,33 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destinations - Custom Surf Trips</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      html { scroll-behavior: smooth; }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-700 antialiased">
-    <header class="bg-blue-600 text-white shadow-md">
+<body class="bg-sky-50 text-gray-700 antialiased">
+    <header class="bg-blue-700 text-white shadow-md">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap justify-between items-center">
-            <a href="index.html" class="text-xl font-bold hover:text-blue-200 transition duration-300">Custom Surf Trips</a>
+            <a href="index.html" class="text-xl font-bold hover:text-sky-200 transition duration-300">Custom Surf Trips</a>
             <div class="space-x-4">
-                <a href="index.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                <a href="destinations.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Destinations</a>
-                <a href="how-it-works.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">How It Works</a>
-                <a href="experiences.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Experiences</a>
-                <a href="about.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">About Us</a>
-                <a href="contact.html" class="hover:text-blue-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium bg-yellow-400 text-blue-700">Contact</a>
+                <a href="index.html" class="hover:text-sky-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                <a href="destinations.html" class="hover:text-sky-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Destinations</a>
+                <a href="how-it-works.html" class="hover:text-sky-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">How It Works</a>
+                <a href="experiences.html" class="hover:text-sky-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">Experiences</a>
+                <a href="about.html" class="hover:text-sky-200 transition duration-300 px-3 py-2 rounded-md text-sm font-medium">About Us</a>
+                <a href="contact.html" class="hover:bg-teal-600 transition duration-300 px-3 py-2 rounded-md text-sm font-medium bg-teal-500 text-white">Contact</a>
             </div>
         </nav>
     </header>
 
     <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <h1 class="text-3xl md:text-4xl font-bold mb-10 md:mb-12 text-center text-blue-700">Explore Our Surf Destinations</h1>
+        <h1 class="text-3xl md:text-4xl font-bold mb-10 md:mb-12 text-center text-blue-800">Explore Our Surf Destinations</h1>
         <p class="text-lg text-gray-600 mb-12 md:mb-16 max-w-3xl mx-auto text-center">Dive into some of the world's most iconic surf spots. Each destination offers unique waves, culture, and experiences, tailored to your preferences.</p>
 
         <!-- Destination 1: South Africa -->
         <section id="south-africa" class="mb-16 md:mb-20 bg-white p-6 md:p-8 rounded-xl shadow-xl overflow-hidden">
-            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-blue-600">South Africa</h2>
+            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-sky-700">South Africa</h2>
             <img src="https://via.placeholder.com/1000x400?text=Epic+J-Bay+Lineup" alt="Surfing in South Africa" class="w-full h-auto rounded-lg mb-6 md:mb-8 shadow-md">
             
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="prose prose-lg max-w-none">
+                <div class="prose prose-lg max-w-none prose-sky"> <!-- Added prose-sky for link colors -->
                     <h3 class="text-xl font-semibold mb-2 text-gray-800">Overview</h3>
                     <p>Experience the diverse coastline of South Africa, offering everything from world-renowned point breaks like Jeffrey's Bay to beginner-friendly beach breaks in Cape Town. A vibrant surf culture, stunning landscapes, and thrilling wildlife encounters await.</p>
 
@@ -46,7 +49,7 @@
                     <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Best Time to Surf</h3>
                     <p>Generally, March to September offers prime conditions for J-Bay and the Cape Peninsula. Durban provides enjoyable year-round surfing.</p>
                 </div>
-                <div class="prose prose-lg max-w-none">
+                <div class="prose prose-lg max-w-none prose-sky"> <!-- Added prose-sky for link colors -->
                     <h3 class="text-xl font-semibold mb-2 text-gray-800">Accommodation Options</h3>
                     <p>From stylish boutique hotels in Cape Town and surf lodges in J-Bay to charming guesthouses along the Garden Route, South Africa caters to every traveler's preference and budget.</p>
 
@@ -66,7 +69,7 @@
                 </div>
             </div>
             <div class="text-center mt-10">
-                <a href="contact.html?destination=South+Africa" class="bg-yellow-500 hover:bg-yellow-600 text-blue-700 font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-md hover:shadow-lg">
+                <a href="contact.html?destination=South+Africa" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-md hover:shadow-lg">
                     Plan Your South Africa Trip
                 </a>
             </div>
@@ -74,11 +77,11 @@
 
         <!-- Destination 2: Bali, Indonesia -->
         <section id="bali" class="mb-16 md:mb-20 bg-white p-6 md:p-8 rounded-xl shadow-xl overflow-hidden">
-            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-blue-600">Bali, Indonesia</h2>
+            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-sky-700">Bali, Indonesia</h2>
             <img src="https://via.placeholder.com/1000x400?text=Bali+Perfect+Barrel" alt="Surfing in Bali" class="w-full h-auto rounded-lg mb-6 md:mb-8 shadow-md">
 
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="prose prose-lg max-w-none">
+                <div class="prose prose-lg max-w-none prose-sky"> <!-- Added prose-sky for link colors -->
                     <h3 class="text-xl font-semibold mb-2 text-gray-800">Overview</h3>
                     <p>Known as the "Island of the Gods," Bali is a tropical paradise offering consistent world-class waves, a rich and vibrant culture, and a famously welcoming atmosphere for surfers of all levels.</p>
 
@@ -93,7 +96,7 @@
                     <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Best Time to Surf</h3>
                     <p>The dry season (May to September) is generally optimal for most iconic west coast breaks like Uluwatu. The wet season (November to March) can offer good conditions for east coast spots.</p>
                 </div>
-                <div class="prose prose-lg max-w-none">
+                <div class="prose prose-lg max-w-none prose-sky"> <!-- Added prose-sky for link colors -->
                     <h3 class="text-xl font-semibold mb-2 text-gray-800">Accommodation Options</h3>
                     <p>Choose from luxurious private villas in Seminyak, traditional bungalows in Canggu, lively surf camps in Kuta, or serene eco-lodges nestled in quieter parts of the island.</p>
 
@@ -113,33 +116,33 @@
                 </div>
             </div>
             <div class="text-center mt-10">
-                <a href="contact.html?destination=Bali" class="bg-yellow-500 hover:bg-yellow-600 text-blue-700 font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-md hover:shadow-lg">
+                <a href="contact.html?destination=Bali" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-md hover:shadow-lg">
                     Plan Your Bali Trip
                 </a>
             </div>
         </section>
         
         <!-- Placeholder for Costa Rica -->
-        <section id="costa-rica" class="mb-16 md:mb-20 bg-gray-200 p-6 md:p-8 rounded-xl shadow-lg overflow-hidden">
-            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-blue-600">Costa Rica (Coming Soon!)</h2>
+        <section id="costa-rica" class="mb-16 md:mb-20 bg-stone-100 p-6 md:p-8 rounded-xl shadow-lg overflow-hidden">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-sky-700">Costa Rica (Coming Soon!)</h2>
             <img src="https://via.placeholder.com/1000x400?text=Costa+Rica+Jungle+Waves" alt="Surfing in Costa Rica" class="w-full h-auto rounded-lg mb-6 md:mb-8 shadow-md opacity-50">
             <p class="text-lg text-gray-700 text-center">Detailed information about surfing in Costa Rica will be available soon. Expect "Pura Vida" vibes, lush rainforests, and consistent swells for all levels!</p>
              <div class="text-center mt-10">
-                <a href="contact.html?destination=Costa+Rica" class="bg-yellow-500 hover:bg-yellow-600 text-blue-700 font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-md hover:shadow-lg">
+                <a href="contact.html?destination=Costa+Rica" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 shadow-md hover:shadow-lg">
                     Inquire About Costa Rica
                 </a>
             </div>
         </section>
     </main>
 
-    <footer class="bg-gray-800 text-gray-300 text-center py-8">
+    <footer class="bg-blue-800 text-gray-300 text-center py-8">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <p class="mb-2">&copy; 2024 Custom Surf Trips. All Rights Reserved.</p>
             <p class="text-sm mb-4">Your Adventure Awaits!</p>
             <div>
-                <a href="privacy.html" class="hover:text-yellow-400 transition duration-300 text-sm px-2">Privacy Policy</a> | 
-                <a href="terms.html" class="hover:text-yellow-400 transition duration-300 text-sm px-2">Terms & Conditions</a> |
-                <a href="contact.html" class="hover:text-yellow-400 transition duration-300 text-sm px-2">Contact Us</a>
+                <a href="privacy.html" class="hover:text-sky-300 transition duration-300 text-sm px-2">Privacy Policy</a> | 
+                <a href="terms.html" class="hover:text-sky-300 transition duration-300 text-sm px-2">Terms & Conditions</a> |
+                <a href="contact.html" class="hover:text-sky-300 transition duration-300 text-sm px-2">Contact Us</a>
             </div>
         </div>
     </footer>
